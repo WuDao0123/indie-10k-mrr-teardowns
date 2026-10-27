@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-27T13:07:42.796Z",
+  "generatedAt": "2026-10-27T13:25:02.597Z",
   "selectionCriteria": "Verified Indie / Bootstrapped SaaS with founder-disclosed revenue >= $10,000 MRR and verifiable public primary source URL.",
   "zeroFabricationPolicy": "All revenue numbers link to primary founder disclosures. All SEO/URL/pricing metrics are extracted directly from live sitemaps, llms.txt, and DOM rendering without paid APIs or traffic guesses.",
-  "totalSites": 15,
+  "totalSites": 20,
   "sites": [
     {
       "slug": "tally",
@@ -161,6 +161,240 @@
         "riskReversalSignals": [],
         "paymentProvidersDetected": [],
         "tierCount": 0,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "typefully",
+      "name": "Typefully",
+      "domain": "typefully.com",
+      "url": "https://typefully.com",
+      "pseoFile": "typefully-com-pseo-blueprint.json",
+      "pricingFile": "typefully-com-pricing-teardown.json",
+      "disclosedRevenue": "~$167,000/mo (~$2,000,000 ARR)",
+      "disclosedMrrUsd": 167000,
+      "disclosureDate": "2026-03-15",
+      "primarySourceUrl": "https://indiemakerlist.com/leaderboard/saas/",
+      "secondarySourceUrl": "https://typefully.com/llms.txt",
+      "secondarySourceNote": "Co-founders Fabrizio Rinaldi & Francesco Di Lorenzo scaled Typefully (originally a Mailbrew side project) to ~$2M ARR (~$167k/mo) across X, LinkedIn, Threads, Bluesky, and Mastodon.",
+      "founders": "Fabrizio Rinaldi & Francesco Di Lorenzo (2 Italian co-founders)",
+      "category": "Creator Economy / Multi-Platform Social Publishing & API Suite",
+      "incumbentWedge": "Replaces clunky enterprise social schedulers (Hootsuite, Sprout Social) with a distraction-free minimalist writing studio, collaborative team review comments, and an AI-Agent-ready OpenAPI + Markdown documentation stack.",
+      "coreValueProposition": "Write better content and grow on social media faster — cross-post seamlessly to X, LinkedIn, Threads, Bluesky, and Mastodon.",
+      "heroCopyBreakdown": "Hero H1 (`Write better content Grow on social media faster`) pairs calm editorial typography with an interactive multi-network composer preview and a dedicated `/llms.txt` pointing AI agents to `typefully.com/ai-agents.md`.",
+      "acquisitionChannels": [
+        "111-Page Public Product Changelog Engine (`/changelog/[changelog_slug]` — 111 pages!): Turns every feature release (Bluesky scheduling, LinkedIn carousels, API v2) into an indexable long-tail landing page.",
+        "High-Intent Competitor Alternatives & How-To Blog (`/blog/[slug]` — 63 pages + `/blog/how-to-[topic]` — 11 pages + `/blog/[competitor]-alternatives` — 8 pages = 228 total URLs, 93.0% pSEO).",
+        "AI-Agent-First `/llms.txt` (`1,619 chars`) + `/ai-agents.md`: Explicitly exposes Markdown API docs (`/docs/api.md`) and OpenAPI 3.x JSON so Claude Code and Cursor agents can draft and schedule posts for users."
+      ],
+      "replicableActions": [
+        "Expose `/ai-agents.md` and `/docs/api.md` Inside Your `/llms.txt`: Typefully is a textbook example of 2026 GEO — its `/llms.txt` directly teaches AI agents how to authenticate and call its v2 API.",
+        "Index Every Product Update as a Standalone SEO URL (`/changelog/[slug]` — 111 pages): Instead of hiding updates in a single modal, publish each feature launch at its own descriptive slug to rank for platform-specific queries.",
+        "Publish Focused `/blog/[competitor]-alternatives` Pages (8 pages): Capture creators churning from Buffer, Hypefury, and Taplio with clean design-led comparison guides."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 1619,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 228,
+        "pseoPageCount": 212,
+        "pseoSharePct": 93,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/changelog/[changelog_slug]",
+            "archetype": "Programmatic Directory / Hub (/changelog/...)",
+            "count": 111,
+            "sharePct": 48.7,
+            "variableSlots": [
+              "changelog_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/changelog/bluesky-sign-in-custom-pds",
+              "https://typefully.com/changelog/writing-assistant-comments",
+              "https://typefully.com/changelog/polls-linkedin-threads-mastodon"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Typefully Changelog"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 63,
+            "sharePct": 27.6,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/blog/x-analytics-ai-agents",
+              "https://typefully.com/blog/schedule-x-articles",
+              "https://typefully.com/blog/post-mortem-security-incident-june-9th-2026"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Typefully"
+          },
+          {
+            "pattern": "/blog/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 11,
+            "sharePct": 4.8,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/blog/what-is-my-linkedin-url",
+              "https://typefully.com/blog/how-to-create-a-linkedin-business-page",
+              "https://typefully.com/blog/how-to-cancel-linkedin-premium"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Typefully"
+          },
+          {
+            "pattern": "/blog/[competitor]-alternatives",
+            "archetype": "Competitor Alternative Landing Pages",
+            "count": 8,
+            "sharePct": 3.5,
+            "variableSlots": [
+              "competitor_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/blog/taplio-alternatives",
+              "https://typefully.com/blog/authoredup-review-alternative",
+              "https://typefully.com/blog/sprout-social-review-alternative"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Typefully"
+          },
+          {
+            "pattern": "/tools/[tool_slug]",
+            "archetype": "Free Tool / Micro-Utility Hub (/tools/[tool-slug])",
+            "count": 6,
+            "sharePct": 2.6,
+            "variableSlots": [
+              "tool_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/tools/ai",
+              "https://typefully.com/tools/fake-tweet-generator",
+              "https://typefully.com/tools/linkedin-text-formatter"
+            ],
+            "inferredTitleFormula": "Free AI Writing Tools by Typefully (latest AI models)"
+          },
+          {
+            "pattern": "/changelog/[changelog_slug]/[sub_item_slug]",
+            "archetype": "Programmatic Directory / Hub (/changelog/...)",
+            "count": 5,
+            "sharePct": 2.2,
+            "variableSlots": [
+              "changelog_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/changelog/page/2",
+              "https://typefully.com/changelog/page/3",
+              "https://typefully.com/changelog/page/4"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Typefully: Best social media tool for creators &amp; businesses",
+        "h1": "Write better content Grow on social media faster",
+        "metaDescription": "Create, schedule, and publish social media posts on X (Twitter), LinkedIn, Threads, Bluesky, and more. Grow faster with analytics, tools and automations.",
+        "jsonLdTypes": [
+          "Organization",
+          "WebSite",
+          "WebPage"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://typefully.com/pricing",
+        "billingToggles": [
+          "Annual billing only"
+        ],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [],
+        "riskReversalSignals": [],
+        "paymentProvidersDetected": [],
+        "tierCount": 2,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "carrd",
+      "name": "Carrd",
+      "domain": "carrd.co",
+      "url": "https://carrd.co",
+      "pseoFile": "carrd-co-pseo-blueprint.json",
+      "pricingFile": "carrd-co-pricing-teardown.json",
+      "disclosedRevenue": "$85,000+ MRR ($1,000,000+ ARR, 2.5M+ sites)",
+      "disclosedMrrUsd": 85000,
+      "disclosureDate": "2021-04-30",
+      "primarySourceUrl": "https://www.indiehackers.com/post/hi-im-aj-maker-of-carrd-and-after-2-5m-sites-1m-arr-and-a-funding-round-probably-time-for-an-ama-1b7fcf52fe",
+      "secondarySourceUrl": "https://carrd.co/pro",
+      "secondarySourceNote": "Founder AJ (@ajlkn) disclosed passing $1M+ ARR (~$85k+ MRR) and 2.5 million sites built with just a 2-person team (AJ on dev/product, Doni on operations).",
+      "founders": "AJ (@ajlkn) & Doni (2-person team)",
+      "category": "No-Code Website Builder / One-Page Landing Page Platform",
+      "incumbentWedge": "Eliminates the complexity and $20–$30/month cost of Squarespace, Webflow, and WordPress for simple one-page sites by charging an impulse-buy $9 to $49 per YEAR and letting users build without even creating an account first.",
+      "coreValueProposition": "Simple, free, fully responsive one-page sites for pretty much anything.",
+      "heroCopyBreakdown": "Ultra-concise H1 (`Simple, free, fully responsive one-page sites for pretty much anything`) paired with a zero-signup `Choose a Starting Point` button that drops visitors straight into the live canvas editor.",
+      "acquisitionChannels": [
+        "2.5M+ Hosted User Sites as a Backlink & Viral Loop Engine: Every free `.carrd.co` site and footer credit acts as a live billboard and high-authority referral funnel.",
+        "Zero-Signup Editor Onboarding: Visitors pick from dozens of curated one-page templates and customize their site before ever hitting a registration form.",
+        "Radical Impulse-Price Word-of-Mouth (`$9/year` Pro Lite -> `$19/year` Pro Standard -> `$49/year` Pro Plus): At $19/year (less than 1 month of Webflow), every indie hacker and creator recommends Carrd as the default landing page starter."
+      ],
+      "replicableActions": [
+        "Let Users Build in the Editor Before Asking for an Email: Carrd’s highest-leverage conversion trick is delaying account creation until the user has already invested 10 minutes designing their page.",
+        "Use Annual Impulse Pricing (`$9/yr`, `$19/yr`, `$49/yr`) When Marginal Hosting Costs Are Pennies: Static one-page sites cost fractions of a cent on AWS/Cloudflare, allowing $19/yr pricing to generate $1M+ ARR at massive volume.",
+        "Turn Every Free Tier Output into a Tasteful Viral Badge: Millions of creators proudly share their `*.carrd.co` profile links in social bios, creating unstoppable organic distribution."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 18,
+        "pseoPageCount": 4,
+        "pseoSharePct": 22.2,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/docs/[doc_slug]/[sub_item_slug]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 2,
+            "sharePct": 11.1,
+            "variableSlots": [
+              "doc_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://carrd.co/docs/general/changelog",
+              "https://carrd.co/docs/forms/setting-up-a-signup-form"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Carrd"
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Carrd - Simple, free, fully responsive one-page sites for pretty much anything",
+        "h1": "Carrd",
+        "metaDescription": "A free platform for building simple, fully responsive one-page sites for pretty much anything.",
+        "jsonLdTypes": []
+      },
+      "pricingStats": {
+        "pricingUrl": "https://carrd.com/pro",
+        "billingToggles": [],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$19 / year",
+          "$9 / year",
+          "$49 / year"
+        ],
+        "riskReversalSignals": [],
+        "paymentProvidersDetected": [
+          "Stripe"
+        ],
+        "tierCount": 6,
         "faqCount": 0
       }
     },
@@ -806,6 +1040,176 @@
         "paymentProvidersDetected": [],
         "tierCount": 2,
         "faqCount": 14
+      }
+    },
+    {
+      "slug": "flowmapp",
+      "name": "FlowMapp",
+      "domain": "flowmapp.com",
+      "url": "https://www.flowmapp.com",
+      "pseoFile": "flowmapp-com-pseo-blueprint.json",
+      "pricingFile": "flowmapp-com-pricing-teardown.json",
+      "disclosedRevenue": "$50,000 MRR ($600,000 ARR)",
+      "disclosedMrrUsd": 50000,
+      "disclosureDate": "2026-02-10",
+      "primarySourceUrl": "https://indiemakerlist.com/leaderboard/saas/",
+      "secondarySourceUrl": "https://www.flowmapp.com/llms.txt",
+      "secondarySourceNote": "Founder Paul Mit scaled FlowMapp to $600,000 ARR ($50,000 MRR) serving web design agencies, UX planners, and product teams.",
+      "founders": "Paul Mit & bootstrapped product team",
+      "category": "UX Planning, Visual Sitemap & Website Wireframe SaaS",
+      "incumbentWedge": "Replaces messy spreadsheets and over-complicated Figma files during the pre-design discovery phase with a dedicated visual sitemap, AI wireframe, and project estimation workspace.",
+      "coreValueProposition": "Visual platform for planning UX, interactive sitemaps, wireframes, and pitching web design projects.",
+      "heroCopyBreakdown": "Hero H1 (`Visual platform for planning UX and pitching web design`) speaks directly to agencies who need to win client pitches faster, backed by a structured 10.9 KB `/llms.txt` declaring `llm-usage: allowed`.",
+      "acquisitionChannels": [
+        "53 Dedicated Feature Landing Pages (`/features/[feature_slug]` — 53 pages!): Every micro-capability (visual sitemap generator, user flow builder, project cost estimator, content brief tool) has its own high-intent SEO landing page.",
+        "76-Page UX & Agency Blog Cluster (`/blog/[category]/[slug]` — 58 pages + `/blog/[category]/how-to-[topic]` — 18 pages = 175 total URLs, 87.4% pSEO).",
+        "Machine-Readable 10.9 KB `/llms.txt` Directory: Explicitly declares `llm-usage: allowed` and lists structured `url:`, `title:`, and `description:` records for every core page."
+      ],
+      "replicableActions": [
+        "Unbundle Your Product into 50+ `/features/[capability-slug]` Landing Pages: Don’t bury your sub-tools on one homepage — FlowMapp created 53 distinct `/features/*` URLs so every specific job-to-be-done ranks independently.",
+        "Use `url: / title: / description:` Key-Value Blocks in `/llms.txt` (`10,934 chars`): Gives AI search crawlers clean, zero-noise metadata for every feature route.",
+        "Highlight a High-Contrast Annual Discount (`Billed annually 45% off` — `$8.25/mo` vs `$15/mo`, `$19.25/mo` vs `$35/mo`): Drives immediate annual cashflow from agency buyers."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 10934,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 175,
+        "pseoPageCount": 153,
+        "pseoSharePct": 87.4,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/blog/[blog_slug]/[sub_item_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 58,
+            "sharePct": 33.1,
+            "variableSlots": [
+              "blog_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/blog/qa/10-ux-design-onboarding-tips",
+              "https://www.flowmapp.com/blog/qa/20-basic-typographic-terms-ui",
+              "https://www.flowmapp.com/blog/qa/5-second-test"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | FlowMapp design blog"
+          },
+          {
+            "pattern": "/features/[feature_slug]",
+            "archetype": "Programmatic Directory / Hub (/features/...)",
+            "count": 53,
+            "sharePct": 30.3,
+            "variableSlots": [
+              "feature_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/features/content",
+              "https://www.flowmapp.com/features/flowchart",
+              "https://www.flowmapp.com/features/generate-sitemap-online"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Online UX tool to create user flow charts"
+          },
+          {
+            "pattern": "/blog/[blog_slug]/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 18,
+            "sharePct": 10.3,
+            "variableSlots": [
+              "blog_slug",
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/blog/qa/how-to-design-flowcharts",
+              "https://www.flowmapp.com/blog/qa/how-to-make-flowchart",
+              "https://www.flowmapp.com/blog/qa/how-to-make-perfect-a-b-test"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | FlowMapp design blog"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 9,
+            "sharePct": 5.1,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/blog/information-architecture",
+              "https://www.flowmapp.com/blog/news",
+              "https://www.flowmapp.com/blog/ui-design"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Information architecture"
+          },
+          {
+            "pattern": "/features/how-to-[topic]",
+            "archetype": "Programmatic Directory / Hub (/features/...)",
+            "count": 8,
+            "sharePct": 4.6,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/features/how-to-plan-a-website-structure-step-by-step-guide",
+              "https://www.flowmapp.com/features/how-to-design-sitemap",
+              "https://www.flowmapp.com/features/how-to-create-user-flow"
+            ],
+            "inferredTitleFormula": "How to plan a website structure: step-by-step guide"
+          },
+          {
+            "pattern": "/pricing/[pricing_slug]",
+            "archetype": "Programmatic Directory / Hub (/pricing/...)",
+            "count": 4,
+            "sharePct": 2.3,
+            "variableSlots": [
+              "pricing_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/pricing/education",
+              "https://www.flowmapp.com/pricing/student",
+              "https://flowmapp.com/pricing/student"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Flowmapp website planning tool: Sitemaps, User Flows, Wireframes, and Content",
+        "h1": "Visual platform for planning UX and pitching web design",
+        "metaDescription": "Flowmapp is an AI-driven planning platform for creating effective website sales proposals by adding brief, designing sitemap, planning website structure, making wireframes, creating content, estimating project costs and creating invoices.",
+        "jsonLdTypes": []
+      },
+      "pricingStats": {
+        "pricingUrl": "https://www.flowmapp.com/pricing",
+        "billingToggles": [
+          "Billed monthly Billed annually 45% off",
+          "Billed monthly",
+          "Billed annually"
+        ],
+        "annualDiscountBadges": [
+          "Billed monthly Billed annually 45% off",
+          "45% off",
+          "Purchase an annual subscription to get 45% off for the whole ✨ year",
+          "Get 45% off for the whole ✨ year",
+          "Honored by G2 Capterra admitted Get 45% off for the whole ✨ year"
+        ],
+        "priceTokensFound": [
+          "$0",
+          "$15",
+          "$8.25 / mo",
+          "$35",
+          "$19.25 / mo",
+          "$99",
+          "$54.45 / mo"
+        ],
+        "riskReversalSignals": [
+          "No credit card required"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 0,
+        "faqCount": 0
       }
     },
     {
@@ -1677,6 +2081,177 @@
       }
     },
     {
+      "slug": "screenshotone",
+      "name": "ScreenshotOne",
+      "domain": "screenshotone.com",
+      "url": "https://screenshotone.com",
+      "pseoFile": "screenshotone-com-pseo-blueprint.json",
+      "pricingFile": "screenshotone-com-pricing-teardown.json",
+      "disclosedRevenue": "$33,000 MRR (~$400k ARR; ~$36k MRR by Sept 2026)",
+      "disclosedMrrUsd": 33000,
+      "disclosureDate": "2026-05-29",
+      "primarySourceUrl": "https://dmytrokrasun.com/posts/screenshotone-4-years/",
+      "secondarySourceUrl": "https://dmytrokrasun.com/posts/20k-mrr-whats-next/",
+      "secondarySourceNote": "Solo founder Dmytro Krasun documented growing ScreenshotOne from launch (May 2022) to $10k MRR (Sept 2024), $20k MRR (June 2025), and $33k MRR with 1,000+ paying customers and 100M+ API calls (May 2026).",
+      "founders": "Dmytro Krasun (Solo technical founder)",
+      "category": "Developer API / Automated Website Screenshot & Rendering Engine",
+      "incumbentWedge": "Solves the nightmare of maintaining headless Chromium clusters, cookie-banner blocking, ad blocking, and residential proxies with a clean REST API and SDKs built specifically for developers and AI agents.",
+      "coreValueProposition": "The screenshot API for developers and AI agents — render clean screenshots, PDFs, and videos without cookie banners or ads in one API call.",
+      "heroCopyBreakdown": "Hero Title (`Website Screenshot API for Developers and AI Agents`) explicitly adds `and AI Agents` to capture the 2025–2026 boom in multimodal LLM agents needing visual web rendering.",
+      "acquisitionChannels": [
+        "4-Pillar Developer SEO Matrix (644 total URLs, 95.8% pSEO): Combines `/changelog/[slug]` (165 pages), `/blog/[slug]` (134 technical tutorials), `/docs/[slug]/[sub]` (65 SDK & parameter docs), and `/use-cases/[slug]` (49 pages).",
+        "Dedicated `/ai-information/` + `/llms.txt` (`926 chars`): ScreenshotOne built a special page (`https://screenshotone.com/ai-information/`) linked from the very top of its `/llms.txt` containing capabilities, pricing, limitations, and customer evidence formatted specifically for LLMs!",
+        "Radical Founder Transparency Blog: Dmytro’s milestone posts ($10k, $20k, $33k MRR) earn massive organic distribution across Hacker News, Indie Hackers, and X."
+      ],
+      "replicableActions": [
+        "Create a Dedicated `/ai-information/` Page and Link It First in `/llms.txt`: ScreenshotOne explicitly feeds AI assistants a single ground-truth page with verified pricing, limits, and SDK links so LLMs never hallucinate its specs.",
+        "Pair 49 `/use-cases/[slug]` Pages with 134 Technical Language Tutorials (`Puppeteer vs Playwright vs API`): Capture developers at the exact moment their self-hosted headless Chrome script crashes in production.",
+        "Clear Usage-Tier Pricing (`$17/mo` -> `$79/mo` -> `$259/mo` with `Annually 2 months free` + 10 objection-handling FAQs)."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 926,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 644,
+        "pseoPageCount": 617,
+        "pseoSharePct": 95.8,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/changelog/[changelog_slug]",
+            "archetype": "Programmatic Directory / Hub (/changelog/...)",
+            "count": 165,
+            "sharePct": 25.6,
+            "variableSlots": [
+              "changelog_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/changelog/2/",
+              "https://screenshotone.com/changelog/3/",
+              "https://screenshotone.com/changelog/4/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Page 2"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 134,
+            "sharePct": 20.8,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/blog/2/",
+              "https://screenshotone.com/blog/3/",
+              "https://screenshotone.com/blog/4/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Page 2"
+          },
+          {
+            "pattern": "/docs/[doc_slug]/[sub_item_slug]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 65,
+            "sharePct": 10.1,
+            "variableSlots": [
+              "doc_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/docs/code-examples/c-net/",
+              "https://screenshotone.com/docs/code-examples/go/",
+              "https://screenshotone.com/docs/code-examples/java/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | ScreenshotOne Docs"
+          },
+          {
+            "pattern": "/use-cases/[use_case_slug]",
+            "archetype": "Use-Case Solution Pages (/use-cases/[persona-or-workflow])",
+            "count": 49,
+            "sharePct": 7.6,
+            "variableSlots": [
+              "use_case_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/use-cases/ai-agents/",
+              "https://screenshotone.com/use-cases/ai-landing-page-roasting/",
+              "https://screenshotone.com/use-cases/ai-vision-web-page-analysis/"
+            ],
+            "inferredTitleFormula": "The Screenshot API for AI Agents With Browser Observation"
+          },
+          {
+            "pattern": "/contributors/[contributor_slug]",
+            "archetype": "Programmatic Directory / Hub (/contributors/...)",
+            "count": 31,
+            "sharePct": 4.8,
+            "variableSlots": [
+              "contributor_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/contributors/anatoly-pashias/",
+              "https://screenshotone.com/contributors/andy-hooke/",
+              "https://screenshotone.com/contributors/anthony-alaribe/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | ScreenshotOne"
+          },
+          {
+            "pattern": "/blog/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 28,
+            "sharePct": 4.3,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/blog/how-to-add-custom-scripts-to-a-page-in-puppeteer/",
+              "https://screenshotone.com/blog/how-to-add-custom-styles-to-a-page-in-puppeteer/",
+              "https://screenshotone.com/blog/how-to-block-requests-with-puppeteer/"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Website Screenshot API for Developers and AI Agents | ScreenshotOne",
+        "h1": "The screenshot API for developers",
+        "metaDescription": "Capture reliable website screenshots, PDFs, and scrolling videos with one developer-friendly API. Start free with ScreenshotOne.",
+        "jsonLdTypes": [
+          "Organization",
+          "WebSite",
+          "Person",
+          "ImageObject",
+          "SoftwareApplication",
+          "WebPage",
+          "BreadcrumbList"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://screenshotone.com/pricing/",
+        "billingToggles": [
+          "Monthly",
+          "Annually (2 months free)"
+        ],
+        "annualDiscountBadges": [
+          "Annually (2 months free)",
+          "(2 months free)"
+        ],
+        "priceTokensFound": [
+          "$17",
+          "$0.00",
+          "$79",
+          "$259"
+        ],
+        "riskReversalSignals": [
+          "No credit card required",
+          "Cancel anytime"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 0,
+        "faqCount": 10
+      }
+    },
+    {
       "slug": "superx",
       "name": "SuperX",
       "domain": "superx.so",
@@ -2430,6 +3005,191 @@
         ],
         "tierCount": 0,
         "faqCount": 0
+      }
+    },
+    {
+      "slug": "leavemealone",
+      "name": "Leave Me Alone",
+      "domain": "leavemealone.com",
+      "url": "https://leavemealone.com",
+      "pseoFile": "leavemealone-com-pseo-blueprint.json",
+      "pricingFile": "leavemealone-com-pricing-teardown.json",
+      "disclosedRevenue": "$10,000/mo (Open Startup verified)",
+      "disclosedMrrUsd": 10000,
+      "disclosureDate": "2023-08-15",
+      "primarySourceUrl": "https://leavemealone.com/blog/from-indie-side-project-to-profitable-business/",
+      "secondarySourceUrl": "https://leavemealone.com/blog/how-we-share-company-stats-and-metrics-publicly/",
+      "secondarySourceNote": "Two-person nomadic founders Danielle Johnson & James Ivings documented scaling Leave Me Alone from $500/mo to $10,000/mo with an Open Startup metrics dashboard.",
+      "founders": "Danielle Johnson & James Ivings (2 co-founders)",
+      "category": "Consumer & Prosumer Privacy SaaS / Email Unsubscribe & Inbox Shield",
+      "incumbentWedge": "Competes with 'free' email cleaners (Unroll.me, which famously got caught selling user inbox receipt data to Uber) by charging transparent privacy-first prices and never storing or selling email content.",
+      "coreValueProposition": "Easily unsubscribe from unwanted emails and clean your inbox without sacrificing your privacy.",
+      "heroCopyBreakdown": "Hero H1 (`Easily unsubscribe from emails`) focuses on immediate inbox relief backed by strict privacy guarantees and transparent pricing.",
+      "acquisitionChannels": [
+        "14,264-Page Programmatic Unsubscribe Directory (`/how-to-unsubscribe-from/[sender_slug]` — 14,264 pages out of 14,802 total URLs, 98.8% pSEO!): Automatically generates a step-by-step unsubscribe guide + 1-click automated unsubscribe CTA for over 14,000 newsletter and SaaS senders (Quora, LinkedIn, Pinterest, Uber, etc.).",
+        "74 Root Commercial & Feature Landing Pages (`/[root-landing-slug]`) + 191 Blog & How-To Guides (`/blog/[slug]`).",
+        "Open Startup Transparency & Free Micro-Tools: Publicly sharing revenue, server costs, and environmental impact builds deep trust with privacy-conscious buyers."
+      ],
+      "replicableActions": [
+        "Build a 10,000+ Page `/how-to-[action]-from-[entity]` Programmatic Directory: Leave Me Alone’s **14,264 `/how-to-unsubscribe-from/[brand]` pages** are the ultimate textbook example of long-tail entity pSEO — capturing frustrated users searching how to stop emails from specific brands and converting them on the spot.",
+        "Offer Flexible Pass vs Subscription Pricing (`$7.50` 7-Day Pass vs `$4.50/mo` Yearly vs `$19/mo` Monthly): Since inbox cleaning can be episodic, offering a 7-day pass alongside recurring Inbox Shield plans captures both one-time and recurring buyers.",
+        "Position Paid Privacy Against 'Free Data-Harvesting Incumbents': Turn the fact that you charge money into your #1 trust badge."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 14802,
+        "pseoPageCount": 14623,
+        "pseoSharePct": 98.8,
+        "detectedLocales": {
+          "fr": 7187,
+          "it": 57,
+          "de": 57,
+          "es": 57
+        },
+        "topFamilies": [
+          {
+            "pattern": "/how-to-unsubscribe-from/[how_to_unsubscribe_from_slug]",
+            "archetype": "Programmatic Directory / Hub (/how-to-unsubscribe-from/...)",
+            "count": 14264,
+            "sharePct": 96.4,
+            "variableSlots": [
+              "how_to_unsubscribe_from_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/how-to-unsubscribe-from/amazon/",
+              "https://leavemealone.com/fr/how-to-unsubscribe-from/amazon/",
+              "https://leavemealone.com/it/how-to-unsubscribe-from/amazon/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Leave Me Alone"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 153,
+            "sharePct": 1,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/blog/why-that-scam-email-knows-so-much-about-you/",
+              "https://leavemealone.com/blog/burner-email-addresses/",
+              "https://leavemealone.com/fr/blog/burner-email-addresses/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Leave Me Alone"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 74,
+            "sharePct": 0.5,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/do-not-disturb/",
+              "https://leavemealone.com/fr/do-not-disturb/",
+              "https://leavemealone.com/it/do-not-disturb/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Leave Me Alone"
+          },
+          {
+            "pattern": "/blog/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 38,
+            "sharePct": 0.3,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/blog/how-to-send-an-anonymous-email/",
+              "https://leavemealone.com/fr/blog/how-to-send-an-anonymous-email/",
+              "https://leavemealone.com/blog/how-to-choose-a-vpn/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Leave Me Alone"
+          },
+          {
+            "pattern": "/blog/tag/[sub_item_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 34,
+            "sharePct": 0.2,
+            "variableSlots": [
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/blog/tag/addy",
+              "https://leavemealone.com/blog/tag/aliases",
+              "https://leavemealone.com/blog/tag/anonymous-email"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Leave Me Alone"
+          },
+          {
+            "pattern": "/favicons/[favicon_slug]",
+            "archetype": "Programmatic Directory / Hub (/favicons/...)",
+            "count": 14,
+            "sharePct": 0.1,
+            "variableSlots": [
+              "favicon_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/favicons/apple-icon-57x57.png",
+              "https://leavemealone.com/favicons/apple-icon-60x60.png",
+              "https://leavemealone.com/favicons/apple-icon-72x72.png"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Easily Unsubscribe from Unwanted Emails and Clean Your Inbox - Leave Me Alone",
+        "h1": "Easily unsubscribe from emails",
+        "metaDescription": "Discover how to easily unsubscribe from unwanted emails and take control of your inbox. Unsubscribe from subscriptions in one click and stop unwanted messages with Leave Me Alone. Try it for free!",
+        "jsonLdTypes": [
+          "Organization",
+          "WebSite",
+          "SoftwareApplication"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://leavemealone.com/pricing/",
+        "billingToggles": [
+          "Pay monthly Pay yearly Choose yearly, save money!",
+          "Pay monthly",
+          "Pay yearly"
+        ],
+        "annualDiscountBadges": [
+          "Welcome! To thank you for your first visit, here's up to 60% off!",
+          "Seven Day Pass 0% off!",
+          "0% off!",
+          "(2 months free)",
+          "Casual Emailer 40% off!",
+          "40% off!",
+          "Inbox Zero Hero 60% off!",
+          "60% off!"
+        ],
+        "priceTokensFound": [
+          "$19",
+          "$19.00",
+          "$ 19.00",
+          "$7.50",
+          "$4.50/mo",
+          "$36.00",
+          "$54.00/year",
+          "$13.33",
+          "$5.33/mo",
+          "$96.00",
+          "$64.00/year"
+        ],
+        "riskReversalSignals": [
+          "no credit card required",
+          "14 day money back guarantee"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 4,
+        "faqCount": 11
       }
     }
   ]

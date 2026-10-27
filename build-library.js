@@ -447,7 +447,153 @@ const SITES_METADATA = [
       "Publish Honest Annual Founder Recaps (`/blog/our-recap-of-2025/`): Radical transparency about MRR ($14,300), subscriber count (627), and net volume ($130k) earns recurring Hacker News and Indie Hackers backlinks.",
       "Differentiate via Backend SDKs & White-Label APIs: When UI features commoditize, offering first-class server-side SDKs (Go, PHP, Python, Node) and agency white-labeling locks in low-churn B2B customers."
     ]
+  },
+  {
+    slug: "typefully",
+    name: "Typefully",
+    domain: "typefully.com",
+    url: "https://typefully.com",
+    pseoFile: "typefully-com-pseo-blueprint.json",
+    pricingFile: "typefully-com-pricing-teardown.json",
+    disclosedRevenue: "~$167,000/mo (~$2,000,000 ARR)",
+    disclosedMrrUsd: 167000,
+    disclosureDate: "2026-03-15",
+    primarySourceUrl: "https://indiemakerlist.com/leaderboard/saas/",
+    secondarySourceUrl: "https://typefully.com/llms.txt",
+    secondarySourceNote: "Co-founders Fabrizio Rinaldi & Francesco Di Lorenzo scaled Typefully (originally a Mailbrew side project) to ~$2M ARR (~$167k/mo) across X, LinkedIn, Threads, Bluesky, and Mastodon.",
+    founders: "Fabrizio Rinaldi & Francesco Di Lorenzo (2 Italian co-founders)",
+    category: "Creator Economy / Multi-Platform Social Publishing & API Suite",
+    incumbentWedge: "Replaces clunky enterprise social schedulers (Hootsuite, Sprout Social) with a distraction-free minimalist writing studio, collaborative team review comments, and an AI-Agent-ready OpenAPI + Markdown documentation stack.",
+    coreValueProposition: "Write better content and grow on social media faster — cross-post seamlessly to X, LinkedIn, Threads, Bluesky, and Mastodon.",
+    heroCopyBreakdown: "Hero H1 (`Write better content Grow on social media faster`) pairs calm editorial typography with an interactive multi-network composer preview and a dedicated `/llms.txt` pointing AI agents to `typefully.com/ai-agents.md`.",
+    acquisitionChannels: [
+      "111-Page Public Product Changelog Engine (`/changelog/[changelog_slug]` — 111 pages!): Turns every feature release (Bluesky scheduling, LinkedIn carousels, API v2) into an indexable long-tail landing page.",
+      "High-Intent Competitor Alternatives & How-To Blog (`/blog/[slug]` — 63 pages + `/blog/how-to-[topic]` — 11 pages + `/blog/[competitor]-alternatives` — 8 pages = 228 total URLs, 93.0% pSEO).",
+      "AI-Agent-First `/llms.txt` (`1,619 chars`) + `/ai-agents.md`: Explicitly exposes Markdown API docs (`/docs/api.md`) and OpenAPI 3.x JSON so Claude Code and Cursor agents can draft and schedule posts for users."
+    ],
+    replicableActions: [
+      "Expose `/ai-agents.md` and `/docs/api.md` Inside Your `/llms.txt`: Typefully is a textbook example of 2026 GEO — its `/llms.txt` directly teaches AI agents how to authenticate and call its v2 API.",
+      "Index Every Product Update as a Standalone SEO URL (`/changelog/[slug]` — 111 pages): Instead of hiding updates in a single modal, publish each feature launch at its own descriptive slug to rank for platform-specific queries.",
+      "Publish Focused `/blog/[competitor]-alternatives` Pages (8 pages): Capture creators churning from Buffer, Hypefury, and Taplio with clean design-led comparison guides."
+    ]
+  },
+  {
+    slug: "carrd",
+    name: "Carrd",
+    domain: "carrd.co",
+    url: "https://carrd.co",
+    pseoFile: "carrd-co-pseo-blueprint.json",
+    pricingFile: "carrd-co-pricing-teardown.json",
+    disclosedRevenue: "$85,000+ MRR ($1,000,000+ ARR, 2.5M+ sites)",
+    disclosedMrrUsd: 85000,
+    disclosureDate: "2021-04-30",
+    primarySourceUrl: "https://www.indiehackers.com/post/hi-im-aj-maker-of-carrd-and-after-2-5m-sites-1m-arr-and-a-funding-round-probably-time-for-an-ama-1b7fcf52fe",
+    secondarySourceUrl: "https://carrd.co/pro",
+    secondarySourceNote: "Founder AJ (@ajlkn) disclosed passing $1M+ ARR (~$85k+ MRR) and 2.5 million sites built with just a 2-person team (AJ on dev/product, Doni on operations).",
+    founders: "AJ (@ajlkn) & Doni (2-person team)",
+    category: "No-Code Website Builder / One-Page Landing Page Platform",
+    incumbentWedge: "Eliminates the complexity and $20–$30/month cost of Squarespace, Webflow, and WordPress for simple one-page sites by charging an impulse-buy $9 to $49 per YEAR and letting users build without even creating an account first.",
+    coreValueProposition: "Simple, free, fully responsive one-page sites for pretty much anything.",
+    heroCopyBreakdown: "Ultra-concise H1 (`Simple, free, fully responsive one-page sites for pretty much anything`) paired with a zero-signup `Choose a Starting Point` button that drops visitors straight into the live canvas editor.",
+    acquisitionChannels: [
+      "2.5M+ Hosted User Sites as a Backlink & Viral Loop Engine: Every free `.carrd.co` site and footer credit acts as a live billboard and high-authority referral funnel.",
+      "Zero-Signup Editor Onboarding: Visitors pick from dozens of curated one-page templates and customize their site before ever hitting a registration form.",
+      "Radical Impulse-Price Word-of-Mouth (`$9/year` Pro Lite -> `$19/year` Pro Standard -> `$49/year` Pro Plus): At $19/year (less than 1 month of Webflow), every indie hacker and creator recommends Carrd as the default landing page starter."
+    ],
+    replicableActions: [
+      "Let Users Build in the Editor Before Asking for an Email: Carrd’s highest-leverage conversion trick is delaying account creation until the user has already invested 10 minutes designing their page.",
+      "Use Annual Impulse Pricing (`$9/yr`, `$19/yr`, `$49/yr`) When Marginal Hosting Costs Are Pennies: Static one-page sites cost fractions of a cent on AWS/Cloudflare, allowing $19/yr pricing to generate $1M+ ARR at massive volume.",
+      "Turn Every Free Tier Output into a Tasteful Viral Badge: Millions of creators proudly share their `*.carrd.co` profile links in social bios, creating unstoppable organic distribution."
+    ]
+  },
+  {
+    slug: "flowmapp",
+    name: "FlowMapp",
+    domain: "flowmapp.com",
+    url: "https://www.flowmapp.com",
+    pseoFile: "flowmapp-com-pseo-blueprint.json",
+    pricingFile: "flowmapp-com-pricing-teardown.json",
+    disclosedRevenue: "$50,000 MRR ($600,000 ARR)",
+    disclosedMrrUsd: 50000,
+    disclosureDate: "2026-02-10",
+    primarySourceUrl: "https://indiemakerlist.com/leaderboard/saas/",
+    secondarySourceUrl: "https://www.flowmapp.com/llms.txt",
+    secondarySourceNote: "Founder Paul Mit scaled FlowMapp to $600,000 ARR ($50,000 MRR) serving web design agencies, UX planners, and product teams.",
+    founders: "Paul Mit & bootstrapped product team",
+    category: "UX Planning, Visual Sitemap & Website Wireframe SaaS",
+    incumbentWedge: "Replaces messy spreadsheets and over-complicated Figma files during the pre-design discovery phase with a dedicated visual sitemap, AI wireframe, and project estimation workspace.",
+    coreValueProposition: "Visual platform for planning UX, interactive sitemaps, wireframes, and pitching web design projects.",
+    heroCopyBreakdown: "Hero H1 (`Visual platform for planning UX and pitching web design`) speaks directly to agencies who need to win client pitches faster, backed by a structured 10.9 KB `/llms.txt` declaring `llm-usage: allowed`.",
+    acquisitionChannels: [
+      "53 Dedicated Feature Landing Pages (`/features/[feature_slug]` — 53 pages!): Every micro-capability (visual sitemap generator, user flow builder, project cost estimator, content brief tool) has its own high-intent SEO landing page.",
+      "76-Page UX & Agency Blog Cluster (`/blog/[category]/[slug]` — 58 pages + `/blog/[category]/how-to-[topic]` — 18 pages = 175 total URLs, 87.4% pSEO).",
+      "Machine-Readable 10.9 KB `/llms.txt` Directory: Explicitly declares `llm-usage: allowed` and lists structured `url:`, `title:`, and `description:` records for every core page."
+    ],
+    replicableActions: [
+      "Unbundle Your Product into 50+ `/features/[capability-slug]` Landing Pages: Don’t bury your sub-tools on one homepage — FlowMapp created 53 distinct `/features/*` URLs so every specific job-to-be-done ranks independently.",
+      "Use `url: / title: / description:` Key-Value Blocks in `/llms.txt` (`10,934 chars`): Gives AI search crawlers clean, zero-noise metadata for every feature route.",
+      "Highlight a High-Contrast Annual Discount (`Billed annually 45% off` — `$8.25/mo` vs `$15/mo`, `$19.25/mo` vs `$35/mo`): Drives immediate annual cashflow from agency buyers."
+    ]
+  },
+  {
+    slug: "screenshotone",
+    name: "ScreenshotOne",
+    domain: "screenshotone.com",
+    url: "https://screenshotone.com",
+    pseoFile: "screenshotone-com-pseo-blueprint.json",
+    pricingFile: "screenshotone-com-pricing-teardown.json",
+    disclosedRevenue: "$33,000 MRR (~$400k ARR; ~$36k MRR by Sept 2026)",
+    disclosedMrrUsd: 33000,
+    disclosureDate: "2026-05-29",
+    primarySourceUrl: "https://dmytrokrasun.com/posts/screenshotone-4-years/",
+    secondarySourceUrl: "https://dmytrokrasun.com/posts/20k-mrr-whats-next/",
+    secondarySourceNote: "Solo founder Dmytro Krasun documented growing ScreenshotOne from launch (May 2022) to $10k MRR (Sept 2024), $20k MRR (June 2025), and $33k MRR with 1,000+ paying customers and 100M+ API calls (May 2026).",
+    founders: "Dmytro Krasun (Solo technical founder)",
+    category: "Developer API / Automated Website Screenshot & Rendering Engine",
+    incumbentWedge: "Solves the nightmare of maintaining headless Chromium clusters, cookie-banner blocking, ad blocking, and residential proxies with a clean REST API and SDKs built specifically for developers and AI agents.",
+    coreValueProposition: "The screenshot API for developers and AI agents — render clean screenshots, PDFs, and videos without cookie banners or ads in one API call.",
+    heroCopyBreakdown: "Hero Title (`Website Screenshot API for Developers and AI Agents`) explicitly adds `and AI Agents` to capture the 2025–2026 boom in multimodal LLM agents needing visual web rendering.",
+    acquisitionChannels: [
+      "4-Pillar Developer SEO Matrix (644 total URLs, 95.8% pSEO): Combines `/changelog/[slug]` (165 pages), `/blog/[slug]` (134 technical tutorials), `/docs/[slug]/[sub]` (65 SDK & parameter docs), and `/use-cases/[slug]` (49 pages).",
+      "Dedicated `/ai-information/` + `/llms.txt` (`926 chars`): ScreenshotOne built a special page (`https://screenshotone.com/ai-information/`) linked from the very top of its `/llms.txt` containing capabilities, pricing, limitations, and customer evidence formatted specifically for LLMs!",
+      "Radical Founder Transparency Blog: Dmytro’s milestone posts ($10k, $20k, $33k MRR) earn massive organic distribution across Hacker News, Indie Hackers, and X."
+    ],
+    replicableActions: [
+      "Create a Dedicated `/ai-information/` Page and Link It First in `/llms.txt`: ScreenshotOne explicitly feeds AI assistants a single ground-truth page with verified pricing, limits, and SDK links so LLMs never hallucinate its specs.",
+      "Pair 49 `/use-cases/[slug]` Pages with 134 Technical Language Tutorials (`Puppeteer vs Playwright vs API`): Capture developers at the exact moment their self-hosted headless Chrome script crashes in production.",
+      "Clear Usage-Tier Pricing (`$17/mo` -> `$79/mo` -> `$259/mo` with `Annually 2 months free` + 10 objection-handling FAQs)."
+    ]
+  },
+  {
+    slug: "leavemealone",
+    name: "Leave Me Alone",
+    domain: "leavemealone.com",
+    url: "https://leavemealone.com",
+    pseoFile: "leavemealone-com-pseo-blueprint.json",
+    pricingFile: "leavemealone-com-pricing-teardown.json",
+    disclosedRevenue: "$10,000/mo (Open Startup verified)",
+    disclosedMrrUsd: 10000,
+    disclosureDate: "2023-08-15",
+    primarySourceUrl: "https://leavemealone.com/blog/from-indie-side-project-to-profitable-business/",
+    secondarySourceUrl: "https://leavemealone.com/blog/how-we-share-company-stats-and-metrics-publicly/",
+    secondarySourceNote: "Two-person nomadic founders Danielle Johnson & James Ivings documented scaling Leave Me Alone from $500/mo to $10,000/mo with an Open Startup metrics dashboard.",
+    founders: "Danielle Johnson & James Ivings (2 co-founders)",
+    category: "Consumer & Prosumer Privacy SaaS / Email Unsubscribe & Inbox Shield",
+    incumbentWedge: "Competes with " + "\x27free\x27" + " email cleaners (Unroll.me, which famously got caught selling user inbox receipt data to Uber) by charging transparent privacy-first prices and never storing or selling email content.",
+    coreValueProposition: "Easily unsubscribe from unwanted emails and clean your inbox without sacrificing your privacy.",
+    heroCopyBreakdown: "Hero H1 (`Easily unsubscribe from emails`) focuses on immediate inbox relief backed by strict privacy guarantees and transparent pricing.",
+    acquisitionChannels: [
+      "14,264-Page Programmatic Unsubscribe Directory (`/how-to-unsubscribe-from/[sender_slug]` — 14,264 pages out of 14,802 total URLs, 98.8% pSEO!): Automatically generates a step-by-step unsubscribe guide + 1-click automated unsubscribe CTA for over 14,000 newsletter and SaaS senders (Quora, LinkedIn, Pinterest, Uber, etc.).",
+      "74 Root Commercial & Feature Landing Pages (`/[root-landing-slug]`) + 191 Blog & How-To Guides (`/blog/[slug]`).",
+      "Open Startup Transparency & Free Micro-Tools: Publicly sharing revenue, server costs, and environmental impact builds deep trust with privacy-conscious buyers."
+    ],
+    replicableActions: [
+      "Build a 10,000+ Page `/how-to-[action]-from-[entity]` Programmatic Directory: Leave Me Alone’s **14,264 `/how-to-unsubscribe-from/[brand]` pages** are the ultimate textbook example of long-tail entity pSEO — capturing frustrated users searching how to stop emails from specific brands and converting them on the spot.",
+      "Offer Flexible Pass vs Subscription Pricing (`$7.50` 7-Day Pass vs `$4.50/mo` Yearly vs `$19/mo` Monthly): Since inbox cleaning can be episodic, offering a 7-day pass alongside recurring Inbox Shield plans captures both one-time and recurring buyers.",
+      "Position Paid Privacy Against " + "\x27Free Data-Harvesting Incumbents\x27" + ": Turn the fact that you charge money into your #1 trust badge."
+    ]
   }
+
 ];
 
 SITES_METADATA.sort((a, b) => b.disclosedMrrUsd - a.disclosedMrrUsd);
