@@ -100,8 +100,10 @@ teardown-library/
 ### 🎨 第一步（免费开源）：用 `taste-skill` 复刻顶级 SaaS 视觉神韵
 别让你的落地页带着一眼假的大模型“蓝紫渐变塑料感”。丢进任意标杆 URL（或从预热的 Linear、Stripe、Cursor、Resend 等 30 个顶级审美站中按自然语言搜索），30 秒生成精确到计算色值、字距、多层微阴影与反模式禁令的 `SKILL.md`：
 ```bash
-npx taste-skill find "warm editorial minimalist ai"
-npx taste-skill add cursor
+# 零配置直接从 GitHub 运行（无需注册或全局安装）：
+npx --yes github:WuDao0123/taste-skill find "warm editorial minimalist ai"
+npx --yes github:WuDao0123/taste-skill add cursor
+# （若已全局安装也可简写为 npx taste-skill add cursor）
 ```
 👉 **在线体验与 30 站审美库预览**：[https://wudao0123.github.io/taste-skill/](https://wudao0123.github.io/taste-skill/) （GitHub: [WuDao0123/taste-skill](https://github.com/WuDao0123/taste-skill)）
 
