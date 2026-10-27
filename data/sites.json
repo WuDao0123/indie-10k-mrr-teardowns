@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-27T02:28:54.642Z",
+  "generatedAt": "2026-10-27T13:07:42.796Z",
   "selectionCriteria": "Verified Indie / Bootstrapped SaaS with founder-disclosed revenue >= $10,000 MRR and verifiable public primary source URL.",
   "zeroFabricationPolicy": "All revenue numbers link to primary founder disclosures. All SEO/URL/pricing metrics are extracted directly from live sitemaps, llms.txt, and DOM rendering without paid APIs or traffic guesses.",
-  "totalSites": 10,
+  "totalSites": 15,
   "sites": [
     {
       "slug": "tally",
@@ -1148,6 +1148,535 @@
       }
     },
     {
+      "slug": "subscribr",
+      "name": "Subscribr",
+      "domain": "subscribr.ai",
+      "url": "https://subscribr.ai",
+      "pseoFile": "subscribr-ai-pseo-blueprint.json",
+      "pricingFile": "subscribr-ai-pricing-teardown.json",
+      "disclosedRevenue": "$41,600+ MRR ($500k+ YTD, $1M/yr run-rate)",
+      "disclosedMrrUsd": 41600,
+      "disclosureDate": "2025-08-27",
+      "primarySourceUrl": "https://www.indiehackers.com/post/tech/leaving-a-funded-startup-and-bootstrapping-to-1m-yr-in-18-months-kPBpdxsTeQitOWOOVs2g",
+      "secondarySourceUrl": "https://subscribr.ai/llms.txt",
+      "secondarySourceNote": "Solo founder Gil Hildebrand disclosed hitting $10k MRR in 100 days after launch (April 2024) and surpassing $500k YTD on a $1M/yr run-rate with 4,000+ customers.",
+      "founders": "Gil Hildebrand (Solo technical founder)",
+      "category": "Creator Economy / AI YouTube Scriptwriting & Video Ideation Engine",
+      "incumbentWedge": "Replaces generic ChatGPT prompts and scattered Google Docs with a YouTube-native content engine grounded in channel voice, outlier video intel, thumbnail/title packaging, and CLI/MCP agent workflows.",
+      "coreValueProposition": "Ideate, script, and edit a month of high-retention YouTube videos today — grounded in your channel voice and real outlier data.",
+      "heroCopyBreakdown": "Hero H1 (`Ideate, Script and Edit A Month of YouTube Videos Today`) sells concrete time-compression (1 month of videos in 1 day), while its `/llms.txt` directly instructs AI agents how to install `@subscribrai/cli`.",
+      "acquisitionChannels": [
+        "588-Page YouTube Strategy Programmatic Hub (`/youtube-strategy/[slug]` — 588 pages + 20 `[tool_a]-vs-[tool_b]` pages + 16 `how-to-[topic]` pages = 747 total URLs, 96.0% pSEO): Captures every creator niche, script template, and competitor comparison.",
+        "AI-Agent-Native `/llms.txt` Onboarding (`1,655 chars`): Explicitly includes a `## For AI agents` section pointing Claude Code/Cursor agents to `https://subscribr.ai/agent-setup/prompt.md` and `npm install -g @subscribrai/cli`.",
+        "Affiliate + SEO Flywheel: High-ticket creator plans ($99/mo to $499/mo) fund generous affiliate commissions while 624+ strategy pages capture organic YouTube creator queries."
+      ],
+      "replicableActions": [
+        "Add a `## For AI agents` Block Inside Your `/llms.txt`: Subscribr doesn't just list web links in `/llms.txt` — it links directly to `/agent-setup/prompt.md` and its CLI/MCP skill installer so AI agents can onboard users autonomously.",
+        "Nest Competitor Comparisons Inside Your Topical Authority Silo (`/youtube-strategy/[tool_a]-vs-[tool_b]` — 20 pages): Keeps all 624 strategy and comparison URLs inside one high-authority subfolder.",
+        "Price for Serious Creators & Studios (`$0` Free -> `$99/mo` Creator -> `$249/mo` Automation -> `$499/mo` Scale with `Annual 2 months free`): High ARPU allows profitable growth with just a few thousand customers."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 1655,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 747,
+        "pseoPageCount": 717,
+        "pseoSharePct": 96,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/youtube-strategy/[youtube_strategy_slug]",
+            "archetype": "Programmatic Directory / Hub (/youtube-strategy/...)",
+            "count": 588,
+            "sharePct": 78.7,
+            "variableSlots": [
+              "youtube_strategy_slug"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/youtube-strategy/youtube-keyword-research-ultimate-guide",
+              "https://subscribr.ai/youtube-strategy/advanced-youtube-keyword-research",
+              "https://subscribr.ai/youtube-strategy/new-youtube-videos-no-views-fix"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Subscribr"
+          },
+          {
+            "pattern": "/help/[help_slug]/[sub_item_slug]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 44,
+            "sharePct": 5.9,
+            "variableSlots": [
+              "help_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/help/video-ideas/intel",
+              "https://subscribr.ai/help/getting-started/audience-avatar",
+              "https://subscribr.ai/help/getting-started/channels"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Subscribr"
+          },
+          {
+            "pattern": "/youtube-strategy/[tool_a]-vs-[tool_b]",
+            "archetype": "Head-to-Head Versus Comparison Pages",
+            "count": 20,
+            "sharePct": 2.7,
+            "variableSlots": [
+              "comparison_pair"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/youtube-strategy/long-tail-vs-short-tail-keywords-youtube",
+              "https://subscribr.ai/youtube-strategy/youtube-shorts-vs-long-form-business",
+              "https://subscribr.ai/youtube-strategy/cost-ai-youtube-tools-free-vs-paid"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Subscribr"
+          },
+          {
+            "pattern": "/youtube-strategy/how-to-[topic]",
+            "archetype": "Programmatic Directory / Hub (/youtube-strategy/...)",
+            "count": 16,
+            "sharePct": 2.1,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/youtube-strategy/how-to-choose-youtube-niche",
+              "https://subscribr.ai/youtube-strategy/how-to-write-clickable-youtube-titles",
+              "https://subscribr.ai/youtube-strategy/how-to-write-youtube-titles-newbies"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Subscribr"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 12,
+            "sharePct": 1.6,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/free-youtube-tools",
+              "https://subscribr.ai/youtube-title-generator",
+              "https://subscribr.ai/youtube-video-breakdown"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Subscribr"
+          },
+          {
+            "pattern": "/help/[help_slug]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 10,
+            "sharePct": 1.3,
+            "variableSlots": [
+              "help_slug"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/help/video-ideas",
+              "https://subscribr.ai/help/getting-started",
+              "https://subscribr.ai/help/chat-ideation"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Subscribr — Ideate, Script and Edit A Month of YouTube Videos Today",
+        "h1": "Ideate, Script and Edit A Month of YouTube Videos Today",
+        "metaDescription": "Automate your YouTube channel: viral ideas, titles, thumbnails, scripts, and fully edited videos. Free skills, free workspace, works with Claude, ChatGPT, Codex, Cursor, and any MCP agent.",
+        "jsonLdTypes": [
+          "SoftwareApplication",
+          "Organization",
+          "FAQPage"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://subscribr.ai/pricing",
+        "billingToggles": [
+          "Monthly Annual 2 months free",
+          "Monthly",
+          "Annual 2 months free",
+          "billed monthly"
+        ],
+        "annualDiscountBadges": [
+          "Monthly Annual 2 months free",
+          "Annual 2 months free",
+          "2 months free"
+        ],
+        "priceTokensFound": [
+          "$0",
+          "$99 /mo",
+          "$1.50",
+          "$249 /mo",
+          "$1.35",
+          "$499 /mo",
+          "$1.20",
+          "$99/mo",
+          "$249/mo",
+          "$499/mo"
+        ],
+        "riskReversalSignals": [],
+        "paymentProvidersDetected": [],
+        "tierCount": 1,
+        "faqCount": 10
+      }
+    },
+    {
+      "slug": "myaskai",
+      "name": "My AskAI",
+      "domain": "myaskai.com",
+      "url": "https://myaskai.com",
+      "pseoFile": "myaskai-com-pseo-blueprint.json",
+      "pricingFile": "myaskai-com-pricing-teardown.json",
+      "disclosedRevenue": "$40,000 MRR (~$500,000 ARR)",
+      "disclosedMrrUsd": 40000,
+      "disclosureDate": "2025-07-10",
+      "primarySourceUrl": "https://www.indiehackers.com/post/tech/bootstrapping-to-40k-mrr-after-his-vc-backed-startup-failed-LF1CwRs1vL3oVLcuoIoE",
+      "secondarySourceUrl": "https://myaskai.com/pricing",
+      "secondarySourceNote": "Co-founders Alex Rainey & Mike Heap disclosed handling 75,000+ support chats/month and generating $40,000 MRR (~$500k ARR) as a two-person bootstrapped team.",
+      "founders": "Alex Rainey & Mike Heap (2 co-founders, UK)",
+      "category": "B2B AI Customer Support Agent (Intercom / Zendesk / Gorgias Drop-in)",
+      "incumbentWedge": "Undercuts Intercom Fin and Zendesk AI ($0.99/resolution) by nearly 90% ($0.10–$0.12/ticket or $49–$199/mo) while plugging directly into the helpdesk the company already uses.",
+      "coreValueProposition": "Match or beat the quality of your helpdesk's native AI agent at a fraction of the cost — plugs straight into Intercom, Zendesk, Freshdesk, and HubSpot.",
+      "heroCopyBreakdown": "Hero H1 (`Match or beat the quality of your helpdesk’s AI at a fraction of the cost`) attacks incumbent pricing head-on, immediately speaking to support leaders shocked by Intercom Fin bills.",
+      "acquisitionChannels": [
+        "High-Intent Helpdesk Comparison Matrix (`/compare/[tool_a]-vs-[tool_b]` — 10 pages): Targets buyers comparing Intercom Fin, Zendesk AI, Ada, and CustomGPT.",
+        "Helpdesk Integration Landing Pages (`/ai-agent-integration/[slug]` — 8 pages + `/features/[slug]` — 10 pages): Dedicated landing pages for every major helpdesk ecosystem (Intercom, Zendesk, Gorgias, Freshdesk, HubSpot).",
+        "Case Study & ROI Proof Engine (`/blog/[slug]` — 24 deep-dive articles): Publishes exact ticket deflection rates and cost-per-resolution benchmarks."
+      ],
+      "replicableActions": [
+        "Build a Drop-In Tax Cutter for Expensive Incumbent Add-Ons: When incumbents like Intercom or Zendesk charge $0.99 per AI resolution, positioning right inside their ecosystem at $0.10/ticket creates an instant ROI calculation.",
+        "Pair `/compare/[incumbent]-vs-[you]` (10 pages) with `/ai-agent-integration/[platform]` (8 pages): Capture both users researching native helpdesk AI pricing and users searching for third-party plugins.",
+        "Offer Annual 33% Discount + Monthly Account Audits on Higher Tiers (`$49/mo`, `$199/mo`, `$499/mo`): Combines self-serve SaaS with high-retention white-glove ticket audits."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 99,
+        "pseoPageCount": 80,
+        "pseoSharePct": 80.8,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 24,
+            "sharePct": 24.2,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/blog/my-askai-traveljoy-case-study-2026",
+              "https://myaskai.com/blog/my-askai-givecard-case-study",
+              "https://myaskai.com/blog/my-askai-honeygain-case-study"
+            ],
+            "inferredTitleFormula": "How TravelJoy hit 80% AI resolution, saving 193 hrs/month"
+          },
+          {
+            "pattern": "/compare/[tool_a]-vs-[tool_b]",
+            "archetype": "Head-to-Head Comparison Hub (/compare/[a]-vs-[b])",
+            "count": 10,
+            "sharePct": 10.1,
+            "variableSlots": [
+              "comparison_pair"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/compare/freshdesk-vs-zendesk-ai-pricing",
+              "https://myaskai.com/compare/intercom-vs-hubspot-ai-pricing",
+              "https://myaskai.com/compare/gorgias-vs-zendesk-ai-pricing"
+            ],
+            "inferredTitleFormula": "Freshdesk Freddy vs Zendesk AI Pricing Compared [2026]"
+          },
+          {
+            "pattern": "/features/[feature_slug]",
+            "archetype": "Programmatic Directory / Hub (/features/...)",
+            "count": 10,
+            "sharePct": 10.1,
+            "variableSlots": [
+              "feature_slug"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/features/testing-and-qa",
+              "https://myaskai.com/features/copilot-internal-note-reply",
+              "https://myaskai.com/features/chatbot-to-human-handoff"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | My AskAI"
+          },
+          {
+            "pattern": "/ai-agent-integration/[ai_agent_integration_slug]",
+            "archetype": "Programmatic Directory / Hub (/ai-agent-integration/...)",
+            "count": 8,
+            "sharePct": 8.1,
+            "variableSlots": [
+              "ai_agent_integration_slug"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/ai-agent-integration/intercom",
+              "https://myaskai.com/ai-agent-integration/hubspot",
+              "https://myaskai.com/ai-agent-integration/zendesk-messaging"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | My AskAI"
+          },
+          {
+            "pattern": "/industry-use-cases/[industry_use_case_slug]",
+            "archetype": "Programmatic Directory / Hub (/industry-use-cases/...)",
+            "count": 8,
+            "sharePct": 8.1,
+            "variableSlots": [
+              "industry_use_case_slug"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/industry-use-cases/saas",
+              "https://myaskai.com/industry-use-cases/marketplace",
+              "https://myaskai.com/industry-use-cases/ecommerce"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | My AskAI"
+          },
+          {
+            "pattern": "/ai-support-agent-roi-calculator/[ai_support_agent_roi_calculator_slug]",
+            "archetype": "Programmatic Directory / Hub (/ai-support-agent-roi-calculator/...)",
+            "count": 7,
+            "sharePct": 7.1,
+            "variableSlots": [
+              "ai_support_agent_roi_calculator_slug"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/ai-support-agent-roi-calculator/intercom",
+              "https://myaskai.com/ai-support-agent-roi-calculator/hubspot",
+              "https://myaskai.com/ai-support-agent-roi-calculator/zendesk-messaging"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "AI Customer Service Agent for Your Helpdesk | My AskAI",
+        "h1": "Match or beat the quality of your helpdesk’s AI at a fraction of the cost",
+        "metaDescription": "Deflect support requests by 75% with an AI customer service agent. Add to your existing live chat providers, like Intercom, Zendesk or Freshdesk. And start saving your team &amp; customers time.",
+        "jsonLdTypes": [
+          "SoftwareApplication,WebApplication",
+          "Organization",
+          "WebSite",
+          "HowTo"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://myaskai.com/pricing",
+        "billingToggles": [
+          "Monthly Annual (33% Discount)",
+          "Monthly",
+          "Annual (33% Discount)",
+          "Monthly account audit (identifying issues & opportunities)"
+        ],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$199/mo",
+          "$0.12",
+          "$49/mo",
+          "$499/mo",
+          "$0.10",
+          "$999/mo",
+          "$709 / mo",
+          "$3,004 / mo",
+          "$510/mo",
+          "$0/mo",
+          "$0.02",
+          "$0.05",
+          "$3,713 / mo",
+          "$0.99",
+          "$50"
+        ],
+        "riskReversalSignals": [
+          "No credit card required",
+          "30 day free trial",
+          "cancel anytime"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 0,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "testimonial",
+      "name": "Testimonial.to",
+      "domain": "testimonial.to",
+      "url": "https://testimonial.to",
+      "pseoFile": "testimonial-to-pseo-blueprint.json",
+      "pricingFile": "testimonial-to-pricing-teardown.json",
+      "disclosedRevenue": "$33,333+ MRR ($400,000+ ARR, later $800k+ ARR)",
+      "disclosedMrrUsd": 33333,
+      "disclosureDate": "2022-11-18",
+      "primarySourceUrl": "https://thebootstrappedfounder.com/a-conversation-with-damon-chen/",
+      "secondarySourceUrl": "https://www.indiehackers.com/post/hit-100k-arr-after-9-months-grinding-as-a-solo-founder-ama-584379b1f6",
+      "secondarySourceNote": "Solo founder Damon Chen disclosed cancelling lifetime deals on Jan 1, 2021, hitting $100k ARR in 9 months on Indie Hackers, and scaling past $400,000 ARR solo.",
+      "founders": "Damon Chen (Solo technical founder)",
+      "category": "Video & Text Testimonial Collection & Wall of Love SaaS",
+      "incumbentWedge": "Pioneered the frictionless browser-based video testimonial collector and embeddable Wall of Love widget for B2B SaaS, creators, and agencies without requiring customers to download an app.",
+      "coreValueProposition": "Capture, measure & showcase customer love — collect video and text testimonials in minutes and embed a Wall of Love with zero code.",
+      "heroCopyBreakdown": "Hero H1 (`Capture, measure & showcase customer love`) expands beyond simple video collection into NPS surveys, case studies, and brand monitoring, supported by a clean 772-char `/llms.txt`.",
+      "acquisitionChannels": [
+        "141 Platform Integration Pages (`/integrations/[integration_slug]` — 141 pages!): Captures every query like \"embed video testimonials in Webflow / Shopify / Kajabi / Notion / WordPress\".",
+        "560-Page Resource & How-To SEO Cluster (`/resources/[slug]` — 455 pages + `/resources/how-to-[topic]` — 105 pages + `/tutorials/[slug]` — 18 pages = 802 total URLs, 97.3% pSEO): Massive bottom- and mid-funnel content library.",
+        "Viral Customer-to-Customer Invite Links + Embedded Wall of Love Backlinks: Every testimonial request link and embedded widget exposes new business owners to Testimonial.to."
+      ],
+      "replicableActions": [
+        "Kill Lifetime Deals (LTDs) Early When Hosting Costs Scale: Damon Chen famously killed his LTD after 10 days ($5,124) and forced himself to build recurring MRR, reaching $100k ARR 9 months later.",
+        "Ship 140+ `/integrations/[platform]` Pages for Every No-Code & CMS Tool: Even if your embed works via a universal 2-line `<script>` tag, create a dedicated step-by-step guide page for each of the 141 platforms your buyers use.",
+        "Deploy a Concise `/llms.txt` Index (`772 chars`): Maps core product routes (`/features`, `/pricing`, `/widgets`, `/wall-of-love`, `/integrations`) for instant AI search citation."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 772,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 802,
+        "pseoPageCount": 780,
+        "pseoSharePct": 97.3,
+        "detectedLocales": {
+          "ja": 1,
+          "es": 1,
+          "de": 1,
+          "fr": 1,
+          "ko": 1,
+          "pt": 1,
+          "ar": 1,
+          "it": 1
+        },
+        "topFamilies": [
+          {
+            "pattern": "/resources/[resource_slug]",
+            "archetype": "Programmatic Directory / Hub (/resources/...)",
+            "count": 455,
+            "sharePct": 56.7,
+            "variableSlots": [
+              "resource_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/resources/twitter-monitoring",
+              "https://testimonial.to/resources/nps-survey-examples",
+              "https://testimonial.to/resources/in-app-nps-survey"
+            ],
+            "inferredTitleFormula": "How to Monitor Brand Mentions on X (Twitter)"
+          },
+          {
+            "pattern": "/integrations/[integration_slug]",
+            "archetype": "Integration Ecosystem pSEO (/integrations/[app-slug])",
+            "count": 141,
+            "sharePct": 17.6,
+            "variableSlots": [
+              "integration_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/integrations/wix",
+              "https://testimonial.to/integrations/carrd",
+              "https://testimonial.to/integrations/notion"
+            ],
+            "inferredTitleFormula": "How to embed reviews on Wix"
+          },
+          {
+            "pattern": "/resources/how-to-[topic]",
+            "archetype": "Programmatic Directory / Hub (/resources/...)",
+            "count": 105,
+            "sharePct": 13.1,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/resources/how-to-create-nps-survey",
+              "https://testimonial.to/resources/how-to-calculate-nps",
+              "https://testimonial.to/resources/what-is-database-management"
+            ],
+            "inferredTitleFormula": "How to Create an NPS Survey (20-Minute Setup)"
+          },
+          {
+            "pattern": "/tutorials/[tutorial_slug]",
+            "archetype": "Programmatic Directory / Hub (/tutorials/...)",
+            "count": 18,
+            "sharePct": 2.2,
+            "variableSlots": [
+              "tutorial_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/tutorials/answering-testimonial-questions",
+              "https://testimonial.to/tutorials/collect-testimonials-within-course",
+              "https://testimonial.to/tutorials/embed-capterra-reviews-on-webflow"
+            ],
+            "inferredTitleFormula": "Answering the most Googled questions"
+          },
+          {
+            "pattern": "/static/[static_slug]/[sub_item_slug]",
+            "archetype": "Programmatic Directory / Hub (/static/...)",
+            "count": 14,
+            "sharePct": 1.7,
+            "variableSlots": [
+              "static_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/static/js/index.05fdca4d.js",
+              "https://testimonial.to/static/js/80829e7a.js",
+              "https://testimonial.to/static/js/5d665eb4.js"
+            ],
+            "inferredTitleFormula": ""
+          },
+          {
+            "pattern": "/tools/[tool_slug]",
+            "archetype": "Free Tool / Micro-Utility Hub (/tools/[tool-slug])",
+            "count": 10,
+            "sharePct": 1.2,
+            "variableSlots": [
+              "tool_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/tools/case-study-generator",
+              "https://testimonial.to/tools/email-template-generator",
+              "https://testimonial.to/tools/video-testimonial-script-generator"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Testimonial — Capture, measure &amp; showcase customer love",
+        "h1": "Capture, measure &amp; showcase customer love",
+        "metaDescription": "The all-in-one platform to capture, measure, and showcase customer love — testimonials, case studies, NPS, and brand monitoring in one place.",
+        "jsonLdTypes": []
+      },
+      "pricingStats": {
+        "pricingUrl": "https://testimonial.to/pricing/",
+        "billingToggles": [
+          "Billed Monthly Billed Yearly 2 months off 🎁",
+          "Billed Monthly",
+          "Monthly mentions"
+        ],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$0 /mo",
+          "$25 /mo",
+          "$300",
+          "$50 /mo",
+          "$600",
+          "$95 /mo",
+          "$1,140",
+          "$600/year",
+          "$1,140/year"
+        ],
+        "riskReversalSignals": [
+          "7-day free trial",
+          "cancel anytime",
+          "Free forever"
+        ],
+        "paymentProvidersDetected": [
+          "Stripe"
+        ],
+        "tierCount": 0,
+        "faqCount": 10
+      }
+    },
+    {
       "slug": "superx",
       "name": "SuperX",
       "domain": "superx.so",
@@ -1304,6 +1833,338 @@
         "paymentProvidersDetected": [],
         "tierCount": 0,
         "faqCount": 9
+      }
+    },
+    {
+      "slug": "hypefury",
+      "name": "Hypefury",
+      "domain": "hypefury.com",
+      "url": "https://hypefury.com",
+      "pseoFile": "hypefury-com-pseo-blueprint.json",
+      "pricingFile": "hypefury-com-pricing-teardown.json",
+      "disclosedRevenue": "$23,000+ MRR ($276,000+ ARR)",
+      "disclosedMrrUsd": 23000,
+      "disclosureDate": "2021-08-15",
+      "primarySourceUrl": "https://www.indiehackers.com/post/flying-past-23k-mrr-in-2-years-hypefury-45f73f0c0a",
+      "secondarySourceUrl": "https://www.indiehackers.com/post/i-co-founded-hypefury-and-scaled-it-to-22k-mrr-ama-318a451a36",
+      "secondarySourceNote": "Co-founders Samy Dindane & Yannick Veys documented scaling from $500 MRR to $23,000+ MRR with 1,000+ paying subscribers and 45,000 monthly organic search visitors.",
+      "founders": "Samy Dindane & Yannick Veys (Co-founders, met on Indie Hackers)",
+      "category": "Creator Economy / Social Media Scheduling & Monetization Automation",
+      "incumbentWedge": "Differentiated from Buffer and Hootsuite by focusing purely on audience growth and monetization loops (auto-retweeting evergreen posts, auto-plugging newsletters/Gumroad links under viral tweets).",
+      "coreValueProposition": "Social media scheduling & automation for creators — build and monetize your X, LinkedIn, Instagram, and email list on autopilot.",
+      "heroCopyBreakdown": "Hero H1 (`Build your 𝕏 LinkedIn Instagram, Email List Success`) connects social scheduling directly to revenue and email list building.",
+      "acquisitionChannels": [
+        "14 Free Creator Micro-Tools (`/tools/[tool_slug]` — 14 pages) + 63 Root Commercial Landing Pages (`/[root-landing-slug]`): Captures creator utility searches and platform-specific scheduler queries.",
+        "259-Page Topic Cluster Blog (`/blog/[category]/[slug]` — 219 pages + `/blog/[category]/how-to-[topic]` — 40 pages = 548 total URLs, 85.0% pSEO): Drives 45,000+ monthly organic visitors.",
+        "Auto-Plug Product Virality: When power users' tweets go viral, Hypefury automatically replies with their newsletter or course link, showcasing the workflow in public."
+      ],
+      "replicableActions": [
+        "Build Features That Advertise Themselves in Public Feeds: Hypefury's Auto-Plug and Tweet-to-Instagram-Screenshot templates naturally prompt followers to ask \"What tool are you using?\"",
+        "Combine `/tools/[tool_slug]` (14 free tools) with `/blog/[category]/how-to-[topic]` (259 articles): Use how-to guides to rank for creator questions and funnel readers into free interactive tools.",
+        "Test Price Increases to Cut High-Maintenance Churn: In their IH AMA, Yannick revealed raising prices boosted MRR from $13k to $19k (+46%) while ultimately stabilizing churn at 7%."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 548,
+        "pseoPageCount": 466,
+        "pseoSharePct": 85,
+        "detectedLocales": {
+          "fr": 6,
+          "es": 6,
+          "pt": 6
+        },
+        "topFamilies": [
+          {
+            "pattern": "/blog/[blog_slug]/[sub_item_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 219,
+            "sharePct": 40,
+            "variableSlots": [
+              "blog_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/blog/en/how-alex-brogan-went-from-4-7k-to-280k-followers-in-20-months-and-multiplied-his-income-sources/",
+              "https://hypefury.com/blog/en/the-best-twitter-tools/",
+              "https://hypefury.com/blog/en/schedule-tweets-scheduler-twitter/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 63,
+            "sharePct": 11.5,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/reel-daily-confirmed/",
+              "https://hypefury.com/join-linkedin-growth-notes-from-autoresponder/",
+              "https://hypefury.com/the-ultimate-bluesky-growth-guide/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation"
+          },
+          {
+            "pattern": "/blog/[blog_slug]/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 40,
+            "sharePct": 7.3,
+            "variableSlots": [
+              "blog_slug",
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/blog/en/how-to-download-a-bluesky-video/",
+              "https://hypefury.com/blog/uncategorized/how-to-schedule-linkedin-posts-in-2026/",
+              "https://hypefury.com/blog/en/how-to-turn-your-tweets-to-instagram-posts/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation"
+          },
+          {
+            "pattern": "/tools/[tool_slug]",
+            "archetype": "Free Tool / Micro-Utility Hub (/tools/[tool-slug])",
+            "count": 14,
+            "sharePct": 2.6,
+            "variableSlots": [
+              "tool_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/tools/x-twitter-fonts-generator/",
+              "https://hypefury.com/tools/fake-revenue-generator/",
+              "https://hypefury.com/tools/fake-x-twitter-creator-payouts-generator/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation"
+          },
+          {
+            "pattern": "/instagram/[instagram_slug]",
+            "archetype": "Programmatic Directory / Hub (/instagram/...)",
+            "count": 11,
+            "sharePct": 2,
+            "variableSlots": [
+              "instagram_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/instagram/best-instagram-hashtags/",
+              "https://hypefury.com/instagram/growing-followers-on-instagram/",
+              "https://hypefury.com/instagram/instagram-trends/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation"
+          },
+          {
+            "pattern": "/instagram/how-to-[topic]",
+            "archetype": "Programmatic Directory / Hub (/instagram/...)",
+            "count": 9,
+            "sharePct": 1.6,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/instagram/how-to-download-an-instagram-reel/",
+              "https://hypefury.com/instagram/how-to-create-an-instagram-grid-post/",
+              "https://hypefury.com/instagram/how-to-turn-off-comments-on-instagram/"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Hypefury - Social media scheduling &amp; automation for creators",
+        "h1": "Build your 𝕏 LinkedIn Instagram, Email&nbsp;List&nbsp; Success",
+        "metaDescription": "We help you build an audience and monetize your socials. Get inspired to create and use Hypefury to increase your revenue.",
+        "jsonLdTypes": [
+          "Person,Organization",
+          "WebSite",
+          "ImageObject",
+          "WebPage",
+          "Person",
+          "Article"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://hypefury.com/features-pricing",
+        "billingToggles": [
+          "Monthly Yearly",
+          "Monthly",
+          "Yearly"
+        ],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$ 6 /mo",
+          "$ 19 /mo"
+        ],
+        "riskReversalSignals": [
+          "No credit card required",
+          "7-day free trial"
+        ],
+        "paymentProvidersDetected": [
+          "Paddle"
+        ],
+        "tierCount": 2,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "pirsch",
+      "name": "Pirsch Analytics",
+      "domain": "pirsch.io",
+      "url": "https://pirsch.io",
+      "pseoFile": "pirsch-io-pseo-blueprint.json",
+      "pricingFile": "pirsch-io-pricing-teardown.json",
+      "disclosedRevenue": "$14,300 MRR (~$130,000/yr net volume)",
+      "disclosedMrrUsd": 14300,
+      "disclosureDate": "2025-12-20",
+      "primarySourceUrl": "https://pirsch.io/blog/our-recap-of-2025/",
+      "secondarySourceUrl": "https://www.indiehackers.com/post/2024-recap-being-in-the-weird-state-of-a-mid-sized-saas-YCFfLxRmJWUEPz7hv9cZ",
+      "secondarySourceNote": "Co-founder Marvin Blum transparently publishes annual recaps showing growth from $6,000 MRR to $11,000 MRR in 2024 and $14,300 MRR (627 subscribers) in 2025.",
+      "founders": "Marvin Blum & Daniel (2 German technical co-founders)",
+      "category": "Privacy-Friendly Cookie-Free Web Analytics (Go-based)",
+      "incumbentWedge": "Competes with GA4, Plausible, and Fathom by offering an ultra-fast Go backend, built-in server-side tracking SDKs, URL shortener, and lower entry pricing ($6/mo) with full white-label agency support.",
+      "coreValueProposition": "See beyond clicks with the best privacy-friendly, cookie-free Google Analytics alternative — built in Germany for speed and developer extensibility.",
+      "heroCopyBreakdown": "Hero H1 (`See Beyond Clicks With the Best Google Analytics Alternative`) pairs direct category keyword targeting with a live interactive dashboard and dark/color-blind mode previews.",
+      "acquisitionChannels": [
+        "560-Page Analytics & Privacy Glossary (`/glossary/[glossary_slug]` — 560 pages!): Captures long-tail definitions across web metrics, GDPR compliance, and attribution modeling.",
+        "144-Page Global Privacy & Traffic Atlas (`/atlas/[atlas_slug]` — 144 pages!): Programmatic country/region data privacy and internet metric reference pages.",
+        "39 Root Landing & Comparison Pages (`/[root-landing-slug]` — 39 pages): Targets direct competitor switching and server-side integration use cases (938 total URLs, 84.1% pSEO)."
+      ],
+      "replicableActions": [
+        "Pair a 560-Page `/glossary/[term]` Engine with a 144-Page `/atlas/[region]` Data Hub: Even in a crowded market like privacy analytics, Pirsch built 704 programmatic reference pages to capture top-of-funnel developer and marketer searches.",
+        "Publish Honest Annual Founder Recaps (`/blog/our-recap-of-2025/`): Radical transparency about MRR ($14,300), subscriber count (627), and net volume ($130k) earns recurring Hacker News and Indie Hackers backlinks.",
+        "Differentiate via Backend SDKs & White-Label APIs: When UI features commoditize, offering first-class server-side SDKs (Go, PHP, Python, Node) and agency white-labeling locks in low-churn B2B customers."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 938,
+        "pseoPageCount": 789,
+        "pseoSharePct": 84.1,
+        "detectedLocales": {
+          "de": 114,
+          "fr": 113,
+          "ja": 113,
+          "it": 113,
+          "es": 113,
+          "pt": 113,
+          "nl": 113
+        },
+        "topFamilies": [
+          {
+            "pattern": "/glossary/[glossary_slug]",
+            "archetype": "SEO Glossary / Concept Wiki (/glossary/[term])",
+            "count": 560,
+            "sharePct": 59.7,
+            "variableSlots": [
+              "glossary_slug"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/pt/glossary/404-not-found",
+              "https://pirsch.io/fr/glossary/channel",
+              "https://pirsch.io/de/glossary/cost-per-click"
+            ],
+            "inferredTitleFormula": "404 Não Encontrado – Pirsch Analytics"
+          },
+          {
+            "pattern": "/atlas/[atla_slug]",
+            "archetype": "Programmatic Directory / Hub (/atlas/...)",
+            "count": 144,
+            "sharePct": 15.4,
+            "variableSlots": [
+              "atla_slug"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/de/atlas/enterprise-analytics",
+              "https://pirsch.io/fr/atlas/sales-analytics",
+              "https://pirsch.io/ja/atlas/social-media-analytics"
+            ],
+            "inferredTitleFormula": "Enterprise Analytics – Pirsch Analytics"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 39,
+            "sharePct": 4.2,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/es/laravel-filament-analytics",
+              "https://pirsch.io/pt/laravel-filament-analytics",
+              "https://pirsch.io/nl/white-label-analytics"
+            ],
+            "inferredTitleFormula": "Analytics para Laravel y Filament – Pirsch Analytics"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 18,
+            "sharePct": 1.9,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/blog/introducing-pirsch-analytics-2.0/",
+              "https://pirsch.io/blog/google-analytics-declared-illegal-by-austrian-dsb/",
+              "https://pirsch.io/blog/our-recap-of-2021/"
+            ],
+            "inferredTitleFormula": "Introducing Pirsch Analytics 2.0: Custom Domains, Themes, Organizations and More"
+          },
+          {
+            "pattern": "/discourse/[discourse_slug]",
+            "archetype": "Programmatic Directory / Hub (/discourse/...)",
+            "count": 8,
+            "sharePct": 0.9,
+            "variableSlots": [
+              "discourse_slug"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/es/discourse/login",
+              "https://pirsch.io/fr/discourse/login",
+              "https://pirsch.io/it/discourse/login"
+            ],
+            "inferredTitleFormula": "Iniciar sesión en Discourse – Pirsch Analytics"
+          },
+          {
+            "pattern": "/[locale]",
+            "archetype": "Localized Homepage",
+            "count": 7,
+            "sharePct": 0.7,
+            "variableSlots": [
+              "locale"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/ja",
+              "https://pirsch.io/de",
+              "https://pirsch.io/it"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Pirsch – The Best, Privacy-Friendly Google Analytics Alternative",
+        "h1": "See Beyond Clicks With the Best Google Analytics Alternative",
+        "metaDescription": "Pirsch is a powerful, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free, and easily integrated into any website or app.",
+        "jsonLdTypes": []
+      },
+      "pricingStats": {
+        "pricingUrl": "https://pirsch.io/#pricing",
+        "billingToggles": [],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [],
+        "riskReversalSignals": [
+          "no credit card required",
+          "30-day Free Trial"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 1,
+        "faqCount": 0
       }
     },
     {
