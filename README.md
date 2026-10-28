@@ -11,7 +11,7 @@
 
 ---
 
-> 🌐 **在线交互工作台（53 页静态站 + 实时截图转 SKILL.md 演示）**: [https://wudao0123.github.io/taste-skill/](https://wudao0123.github.io/taste-skill/)  
+> 🌐 **在线交互工作台（53 页静态站 + 实时截图转 SKILL.md 演示）**: [https://taste-skill.pages.dev/](https://taste-skill.pages.dev/)  
 > 🎨 **配套开源视觉逆向 CLI (`taste-skill`)**: [https://github.com/WuDao0123/taste-skill](https://github.com/WuDao0123/taste-skill)  
 > 📦 **本仓库地址 (`indie-10k-mrr-teardowns`)**: [https://github.com/WuDao0123/indie-10k-mrr-teardowns](https://github.com/WuDao0123/indie-10k-mrr-teardowns)
 
@@ -105,7 +105,7 @@ npx --yes github:WuDao0123/taste-skill find "warm editorial minimalist ai"
 npx --yes github:WuDao0123/taste-skill add cursor
 # （若已全局安装也可简写为 npx taste-skill add cursor）
 ```
-👉 **在线体验与 30 站审美库预览**：[https://wudao0123.github.io/taste-skill/](https://wudao0123.github.io/taste-skill/) （GitHub: [WuDao0123/taste-skill](https://github.com/WuDao0123/taste-skill)）
+👉 **在线体验与 30 站审美库预览**：[https://taste-skill.pages.dev/](https://taste-skill.pages.dev/) （GitHub: [WuDao0123/taste-skill](https://github.com/WuDao0123/taste-skill)）
 
 ### 🚀 第二步（Pro 实战套件）：用 `Growth & Monetization Agent Skills Suite` 一键生成增长基建
 本开源拆解库中的所有实测数据，全部由我们的 **4 大商业化增长 Agent Skills** 自动抓取与构建。获取完整 Pro 套件，让你的 Coding Agent 直接为你执行：
@@ -123,7 +123,7 @@ npx --yes github:WuDao0123/taste-skill add cursor
 | **Growth & Revenue Pro Pack 🌟** | **$69 Early-Bird** *(~~$99~~ Regular)* | **全部 4 大付费 Skills** + **5 个本地 Playwright/Node 脚本** + Next.js/Astro/React 模板 + **22 站完整原始 JSON 蓝图包（20 万刀独立站 + Skillry + Zapier + Zapier 基准）** + 终身更新 |
 | **Team / Agency License** | **$169** *(One-time)* | 最多 5 人团队共享 + **不限客户项目商业交付与白标授权** + 优先新增站点拆解请求权 |
 
-👉 **在线交互预览与获取 Growth & Monetization Agent Skills Pro 套件（早鸟价 $69）**：[https://wudao0123.github.io/taste-skill/#pricing-section](https://wudao0123.github.io/taste-skill/#pricing-section)
+👉 **在线交互预览与获取 Growth & Monetization Agent Skills Pro 套件（早鸟价 $69）**：[https://taste-skill.pages.dev/#pricing-section](https://taste-skill.pages.dev/#pricing-section)
 
 ---
 
